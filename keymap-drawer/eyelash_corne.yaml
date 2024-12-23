@@ -127,7 +127,7 @@ layers:
   - HOME
   - PG UP
   - RGB EFF
-  - $$mdi:bluetooth-off$$
+  - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
