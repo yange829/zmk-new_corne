@@ -137,14 +137,14 @@ layers:
   - RGB SAI
   - '&mmv MOVE_Y 200'
   - $$mdi:mouse-scroll-wheel$$
-  - '&mmv MOVE_Y'
+  - '&mmv MOVE_Y -200'
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
