@@ -110,7 +110,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
