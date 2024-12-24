@@ -134,10 +134,10 @@ layers:
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB EFF
+  - RGB SAI
   - '&mmv MOVE_Y 200'
   - $$mdi:mouse-scroll-wheel$$
-  - '&mmv MOVE_Y -200'
+  - '&mmv MOVE_Y'
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
