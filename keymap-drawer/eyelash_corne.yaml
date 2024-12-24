@@ -135,9 +135,9 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB SAI
-  - '&mmv MOVE_Y 200'
+  - $$mdi:pan-up$$
   - $$mdi:mouse-scroll-wheel$$
-  - '&mmv MOVE_Y -200'
+  - $$mdi:pan-down$$
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
