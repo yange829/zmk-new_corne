@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - A
   - S
   - D
@@ -27,7 +27,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: \, s: '|'}
+  - .
   - LGUI
   - config
   - {t: '$$mdi:keyboard-space$$', h: Fn}
