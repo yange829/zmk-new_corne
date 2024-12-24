@@ -32,6 +32,16 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+
+        hold_tab: hold_tab {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAB";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <1>;
+            flavor = "balanced";
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -54,10 +64,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E     &kp R  &kp T                                     &mmv MOVE_UP                     &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE                    &mmv MOVE_DOWN                   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                         &kp LGUI  &mo 2  &lt 4 SPACE                                                                &lt 4 ENTER  &mo 3  &kp RALT
+&kp ESC                   &kp Q  &kp W  &kp E     &kp R  &kp T                                     &mmv MOVE_UP                     &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&hold_tab LEFT_SHIFT TAB  &kp A  &kp S  &kp D     &kp F  &kp G                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &hold_tab RIGHT_SHIFT ENTER
+&kp LCTRL                 &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE                    &mmv MOVE_DOWN                   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
+                                        &kp LGUI  &mo 2  &lt 4 SPACE                                                                &lt 4 ENTER  &mo 3  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
