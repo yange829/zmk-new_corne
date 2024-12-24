@@ -87,9 +87,9 @@
         raise_config {
             display-name = "Config";
             bindings = <
-&kp TILDE        &trans          &kp LEFT_PARENTHESIS  &kp PAGE_UP    &kp RIGHT_PARENTHESIS  &trans                                      &mmv MOVE_UP                     &kp N6           &mkp LCLK        &mmv MOVE_UP    &mkp RCLK         &kp N0    &bt BT_NXT
-&rgb_ug RGB_TOG  &trans          &kp LEFT_BRACKET      &kp PAGE_DOWN  &kp RIGHT_BRACKET      &trans                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &kp HOME  &kp PG_UP
-&rgb_ug RGB_EFF  &bt BT_CLR_ALL  &bt BT_SEL 0          &bt BT_SEL 1   &bt BT_SEL 2           &bt BT_SEL 3  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFF  &mmv MOVE_Y 200  &mkp MCLK       &mmv MOVE_Y -200  &kp END   &kp PG_DN
+&kp TILDE        &trans          &kp LEFT_PARENTHESIS  &kp PAGE_UP    &kp RIGHT_PARENTHESIS  &trans                                      &mmv MOVE_UP                     &kp N6           &mkp LCLK        &mmv MOVE_UP    &mkp RCLK        &kp N0    &bt BT_NXT
+&rgb_ug RGB_TOG  &trans          &kp LEFT_BRACKET      &kp PAGE_DOWN  &kp RIGHT_BRACKET      &trans                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp HOME  &kp PG_UP
+&rgb_ug RGB_EFF  &bt BT_CLR_ALL  &bt BT_SEL 0          &bt BT_SEL 1   &bt BT_SEL 2           &bt BT_SEL 3  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_SAI  &mmv MOVE_Y 200  &mkp MCLK       &mmv MOVE_Y      &kp END   &kp PG_DN
                                                        &trans         &trans                 &trans                                                                       &trans           &kp DEL          &trans
             >;
 
