@@ -106,9 +106,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-right-click-outline$$
   - {t: '0', s: )}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - RGB TOG
@@ -120,10 +120,10 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - RGB BRI
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - HOME
   - PG UP
   - RGB EFF
@@ -134,10 +134,10 @@ layers:
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB EFR
-  - RGB SPI
-  - RGB BRI
-  - RGB BRD
+  - RGB EFF
+  - '&mmv MOVE_Y 200'
+  - $$mdi:mouse-scroll-wheel$$
+  - '&mmv MOVE_Y -200'
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
