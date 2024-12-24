@@ -39,7 +39,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
             flavor = "hold-preferred";
         };
     };
@@ -64,20 +64,20 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC                   &kp Q  &kp W  &kp E        &kp R  &kp T                                     &mmv MOVE_UP                     &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&hold_tab LEFT_SHIFT TAB  &kp A  &kp S  &kp D        &kp F  &kp G                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &hold_tab RIGHT_SHIFT ENTER
-&kp LCTRL                 &kp Z  &kp X  &kp C        &kp V  &kp B        &kp SPACE                    &mmv MOVE_DOWN                   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
-                                        &kp LA(TAB)  &mo 1  &lt 3 SPACE                                                                &lt 3 SPACE  &mo 2  &kp RALT
+&kp ESC                   &kp Q  &kp W  &kp E         &kp R  &kp T                                     &mmv MOVE_UP                     &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&hold_tab LEFT_SHIFT TAB  &kp A  &kp S  &kp D         &kp F  &kp G                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &hold_tab RIGHT_SHIFT ENTER
+&kp LCTRL                 &kp Z  &kp X  &kp C         &kp V  &kp B        &mkp LCLK                    &mmv MOVE_DOWN                   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
+                                        &kp LEFT_ALT  &mo 1  &lt 3 SPACE                                                                &lt 3 SPACE  &mo 2  &kp RALT
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         lower_number {
             bindings = <
 &kp F2  &kp LC(S)  &kp LC(C)  &kp UP         &kp LC(V)  &trans                    &trans          &kp EQUAL  &kp N7  &kp N8      &kp N9  &kp HOME  &trans
 &trans  &kp LC(Z)  &kp LEFT   &kp DOWN       &kp RIGHT  &trans            &trans  &trans  &trans  &kp MINUS  &kp N4  &kp N5      &kp N6  &kp END   &trans
-&trans  &trans     &trans     &kp LG(LS(S))  &trans     &trans  &trans            &trans          &kp FSLH   &kp N1  &kp N2      &kp N3  &trans    &trans
+&trans  &trans     &trans     &kp LG(LS(S))  &trans     &trans  &trans            &trans          &kp FSLH   &kp N1  &kp N2      &kp N3  &trans    &kp DEL
                               &trans         &trans     &trans                                    &trans     &kp N0  &kp K_CALC
             >;
 
