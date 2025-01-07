@@ -34,7 +34,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:apple-keyboard-caps$$
+  - {t: 'Ctl+Alt+$$mdi:backspace-reverse-outline$$', h: Gui+L}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
   - M
@@ -50,7 +50,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   number:
   - F2
-  - Ctl+S
+  - Ctl+X
   - Ctl+C
   - $$mdi:arrow-up-bold$$
   - Ctl+V
@@ -62,12 +62,12 @@ layers:
   - {t: '9', s: (}
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+S
   - Ctl+Z
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Y
   - $$mdi:pan-left$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-right$$
@@ -83,7 +83,7 @@ layers:
   - Gui+Sft+S
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+P
   - $$mdi:pan-down$$
   - {t: /, s: '?'}
   - {t: '1', s: '!'}
