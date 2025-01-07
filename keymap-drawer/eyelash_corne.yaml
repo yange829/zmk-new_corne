@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', s: \}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - A
   - S
@@ -43,10 +43,10 @@ layers:
   - {t: /, s: '?'}
   - .
   - $$mdi:apple-keyboard-option$$
-  - number
+  - '&layer_toggle_1'
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - config
+  - '&layer_toggle_2'
   - $$mdi:apple-keyboard-option$$
   number:
   - F2
@@ -54,8 +54,8 @@ layers:
   - Ctl+C
   - $$mdi:arrow-up-bold$$
   - Ctl+V
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+$$mdi:keyboard-tab$$
+  - $$mdi:pan-up$$
   - {t: '=', s: +}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -68,9 +68,9 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-left$$
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:pan-right$$
   - {t: '-', s: _}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -84,7 +84,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
   - {t: /, s: '?'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -92,7 +92,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
@@ -140,11 +140,11 @@ layers:
   - $$mdi:pan-down$$
   - END
   - PG DN
-  - AL PREV TASK
-  - AL PREVIOUS TASK
-  - AL NEXT TASK
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
