@@ -34,7 +34,7 @@ layers:
   - C
   - V
   - B
-  - Alt+$$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
   - M
