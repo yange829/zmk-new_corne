@@ -54,7 +54,7 @@ layers:
   - Ctl+C
   - $$mdi:arrow-up-bold$$
   - Ctl+V
-  - Alt+$$mdi:keyboard-tab$$
+  - F4
   - $$mdi:pan-up$$
   - {t: '=', s: +}
   - {t: '7', s: '&'}
