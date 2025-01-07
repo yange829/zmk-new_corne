@@ -42,6 +42,13 @@
             tapping-term-ms = <250>;
             flavor = "hold-preferred";
         };
+
+        sensor_prev_next: sensor_prev_next {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "SENSOR_PREV_NEXT";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp C_AL_PREVIOUS_TASK>, <&kp C_AL_NEXT_TASK>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -64,13 +71,13 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC                   &kp Q  &kp W  &kp E         &kp R   &kp T                                        &mmv MOVE_UP                     &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&hold_tab LEFT_SHIFT TAB  &kp A  &kp S  &kp D         &kp F   &kp G                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &hold_tab RIGHT_SHIFT ENTER
-&kp LCTRL                 &kp Z  &kp X  &kp C         &kp V   &kp B        &kp CAPSLOCK                    &mmv MOVE_DOWN                   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
-                                        &kp LEFT_ALT  &tog 1  &lt 3 SPACE                                                                   &lt 3 SPACE  &mo 2  &kp RALT
+&kp ESC                   &kp Q  &kp W  &kp E         &kp R  &kp T                                        &mmv MOVE_UP                     &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&hold_tab LEFT_SHIFT TAB  &kp A  &kp S  &kp D         &kp F  &kp G                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &hold_tab RIGHT_SHIFT ENTER
+&kp LCTRL                 &kp Z  &kp X  &kp C         &kp V  &kp B        &kp CAPSLOCK                    &mmv MOVE_DOWN                   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
+                                        &kp LEFT_ALT  &mo 1  &lt 3 SPACE                                                                   &lt 3 SPACE  &mo 2  &kp RALT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AL_PREV_TASK LA(TAB)>;
+            sensor-bindings = <&sensor_prev_next>;
         };
 
         lower_number {
@@ -82,7 +89,7 @@
             >;
 
             label = "number";
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         raise_config {
@@ -106,8 +113,6 @@
 &trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                                        &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         raise_layer {
@@ -118,8 +123,6 @@
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
-
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_5 {
