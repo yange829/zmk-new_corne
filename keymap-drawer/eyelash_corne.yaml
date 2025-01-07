@@ -140,9 +140,9 @@ layers:
   - $$mdi:pan-down$$
   - END
   - PG DN
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - AL PREV TASK
+  - AL PREVIOUS TASK
+  - AL NEXT TASK
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
