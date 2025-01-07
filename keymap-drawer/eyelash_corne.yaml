@@ -42,7 +42,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - .
-  - $$mdi:apple-keyboard-option$$
+  - {t: 'Alt+$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - '&layer_toggle_1'
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
