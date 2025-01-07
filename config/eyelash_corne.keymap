@@ -101,10 +101,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC             &kp Q  &kp W  &kp E         &kp R            &kp T                                        &mmv MOVE_UP                     &kp Y        &kp U            &kp I      &kp O    &kp P     &back_slash
-&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D         &kp F            &kp G                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J            &kp K      &kp L    &kp SEMI  &mt RIGHT_SHIFT ENTER
-&kp LCTRL           &kp Z  &kp X  &kp C         &kp V            &kp B        &kp CAPSLOCK                    &mmv MOVE_DOWN                   &kp N        &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
-                                  &kp LEFT_ALT  &layer_toggle_1  &lt 3 SPACE                                                                   &lt 3 SPACE  &layer_toggle_2  &kp RALT
+&kp ESC             &kp Q  &kp W  &kp E                       &kp R            &kp T                                        &mmv MOVE_UP                     &kp Y        &kp U            &kp I      &kp O    &kp P     &back_slash
+&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D                       &kp F            &kp G                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J            &kp K      &kp L    &kp SEMI  &mt RIGHT_SHIFT ENTER
+&kp LCTRL           &kp Z  &kp X  &kp C                       &kp V            &kp B        &kp CAPSLOCK                    &mmv MOVE_DOWN                   &kp N        &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
+                                  &hold_tab LEFT_ALT LA(TAB)  &layer_toggle_1  &lt 3 SPACE                                                                   &lt 3 SPACE  &layer_toggle_2  &kp RALT
             >;
 
             sensor-bindings = <&rotate_scroll SCRL_DOWN SCRL_UP>;
