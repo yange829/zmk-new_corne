@@ -3,7 +3,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -48,7 +47,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             label = "SCROLL_ENCODER";
             #sensor-binding-cells = <0>;
-            bindings = <&kt DOWN_ARROW>, <&kt UP_ARROW>;
+            bindings = <&kp PAGE_DOWN>, <&kp PAGE_UP>;
         };
 
         task_up_down: task_up_down {
@@ -107,7 +106,7 @@
                                   &hold_tab LEFT_ALT LA(TAB)  &layer_toggle_1  &lt 3 SPACE                                                                   &lt 3 SPACE  &layer_toggle_2  &kp RALT
             >;
 
-            sensor-bindings = <&rotate_scroll SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         lower_number {
@@ -119,7 +118,7 @@
             >;
 
             label = "number";
-            sensor-bindings = <&rotate_scroll SCRL_LEFT SCRL_RIGHT>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         raise_config {
@@ -162,8 +161,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp 0 0>;
         };
     };
 };
