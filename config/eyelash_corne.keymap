@@ -62,6 +62,8 @@
             label = "LAYER_TOGGLE_1";
             #binding-cells = <0>;
             bindings = <&mo 1>, <&tog 1>;
+
+            tapping-term-ms = <500>;
         };
 
         layer_toggle_2: layer_toggle_2 {
@@ -69,6 +71,8 @@
             label = "LAYER_TOGGLE_2";
             #binding-cells = <0>;
             bindings = <&mo 2>, <&tog 2>;
+
+            tapping-term-ms = <500>;
         };
 
         back_slash: back_slash {
