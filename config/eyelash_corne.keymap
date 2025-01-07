@@ -100,10 +100,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC             &kp Q  &kp W  &kp E                       &kp R            &kp T                                        &mmv MOVE_UP                     &kp Y        &kp U            &kp I      &kp O    &kp P     &back_slash
-&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D                       &kp F            &kp G                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J            &kp K      &kp L    &kp SEMI  &mt RIGHT_SHIFT ENTER
-&kp LCTRL           &kp Z  &kp X  &kp C                       &kp V            &kp B        &kp CAPSLOCK                    &mmv MOVE_DOWN                   &kp N        &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
-                                  &hold_tab LEFT_ALT LA(TAB)  &layer_toggle_1  &lt 3 SPACE                                                                   &lt 3 SPACE  &layer_toggle_2  &kp RALT
+&kp ESC             &kp Q  &kp W  &kp E                       &kp R            &kp T                                                    &mmv MOVE_UP                     &kp Y        &kp U            &kp I      &kp O    &kp P     &back_slash
+&mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D                       &kp F            &kp G                                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J            &kp K      &kp L    &kp SEMI  &mt RIGHT_SHIFT ENTER
+&kp LCTRL           &kp Z  &kp X  &kp C                       &kp V            &kp B        &mt LG(L) LC(LA(DELETE))                    &mmv MOVE_DOWN                   &kp N        &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
+                                  &hold_tab LEFT_ALT LA(TAB)  &layer_toggle_1  &lt 3 SPACE                                                                               &lt 3 SPACE  &layer_toggle_2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
@@ -111,10 +111,10 @@
 
         lower_number {
             bindings = <
-&kp F2  &kp LC(S)  &kp LC(C)  &kp UP         &kp LC(V)  &kp LA(TAB)                            &msc SCRL_UP                     &kp EQUAL  &kp N7  &kp N8               &kp N9  &kp HOME  &trans
-&trans  &kp LC(Z)  &kp LEFT   &kp DOWN       &kp RIGHT  &trans                 &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp MINUS  &kp N4  &kp N5               &kp N6  &kp END   &trans
-&trans  &trans     &trans     &kp LG(LS(S))  &trans     &trans       &trans                    &msc SCRL_DOWN                   &kp FSLH   &kp N1  &kp N2               &kp N3  &trans    &kp DEL
-                              &trans         &trans     &trans                                                                  &trans     &kp N0  &kp C_AL_CALCULATOR
+&kp F2     &kp LC(X)  &kp LC(C)  &kp UP         &kp LC(V)  &kp LA(TAB)                               &msc SCRL_UP                     &kp EQUAL  &kp N7  &kp N8               &kp N9  &kp HOME  &trans
+&kp LC(S)  &kp LC(Z)  &kp LEFT   &kp DOWN       &kp RIGHT  &kp LC(Y)                 &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp MINUS  &kp N4  &kp N5               &kp N6  &kp END   &trans
+&trans     &trans     &trans     &kp LG(LS(S))  &trans     &trans       &kp LG(P)                    &msc SCRL_DOWN                   &kp FSLH   &kp N1  &kp N2               &kp N3  &trans    &kp DEL
+                                 &trans         &trans     &trans                                                                     &trans     &kp N0  &kp C_AL_CALCULATOR
             >;
 
             label = "number";
