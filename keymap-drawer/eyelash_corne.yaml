@@ -34,7 +34,7 @@ layers:
   - C
   - V
   - B
-  - Alt+ $$mdi:keyboard-tab$$
+  - Alt+$$mdi:keyboard-tab$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
   - M
@@ -50,10 +50,10 @@ layers:
   - $$mdi:apple-keyboard-option$$
   number:
   - F2
-  - Ctl+ S
-  - Ctl+ C
+  - Ctl+S
+  - Ctl+C
   - $$mdi:arrow-up-bold$$
-  - Ctl+ V
+  - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
@@ -63,7 +63,7 @@ layers:
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+ Z
+  - Ctl+Z
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -80,7 +80,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+Sft+ S
+  - Gui+Sft+S
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -120,7 +120,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRI
+  - BACK
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -134,7 +134,7 @@ layers:
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB SAI
+  - FORWARD
   - $$mdi:pan-up$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-down$$
