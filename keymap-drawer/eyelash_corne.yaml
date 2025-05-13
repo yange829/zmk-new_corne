@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
   - $$mdi:keyboard-esc$$
@@ -49,7 +50,7 @@ layers:
   - '&layer_toggle_2'
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:apple-keyboard-control$$'}
   number:
-  - F2
+  - F4
   - Ctl+X
   - Ctl+C
   - $$mdi:arrow-up-bold$$
