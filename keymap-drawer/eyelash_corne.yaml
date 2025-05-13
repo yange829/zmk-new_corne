@@ -55,7 +55,7 @@ layers:
   - Ctl+C
   - $$mdi:arrow-up-bold$$
   - Ctl+V
-  - F4
+  - F2
   - $$mdi:pan-up$$
   - {t: '=', s: +}
   - {t: '7', s: '&'}
