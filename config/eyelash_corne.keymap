@@ -120,7 +120,7 @@
 
         lower_number {
             bindings = <
-&kp F4     &kp LC(X)  &kp LC(C)  &kp UP         &kp LC(V)  &kp F2                                  &msc SCRL_UP                     &kp EQUAL  &kp N7  &kp N8      &kp N9  &kp HOME  &trans
+&kp F2     &kp LC(X)  &kp LC(C)  &kp UP         &kp LC(V)  &kp F4                                  &msc SCRL_UP                     &kp EQUAL  &kp N7  &kp N8      &kp N9  &kp HOME  &trans
 &kp LC(S)  &kp LC(Z)  &kp LEFT   &kp DOWN       &kp RIGHT  &kp LC(Y)               &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp MINUS  &kp N4  &kp N5      &kp N6  &kp END   &trans
 &trans     &trans     &trans     &kp LG(LS(S))  &trans     &trans     &kp LG(P)                    &msc SCRL_DOWN                   &kp FSLH   &kp N1  &kp N2      &kp N3  &trans    &kp DEL
                                  &trans         &trans     &trans                                                                   &trans     &kp N0  &kp K_CALC
